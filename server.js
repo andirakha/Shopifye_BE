@@ -20,7 +20,7 @@ app.get('/api/users', (req, res) => {
    fs.readFile('/var/task/products.json', 'utf8', (err, data) => {
       if (err) {
          console.error(err);
-         res.status(500).json({ error: 'Internal Server Error' +  __dirname});
+         res.status(500).json({ error: __dirname+'/products.json'});
          return;
       }
 
