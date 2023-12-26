@@ -17,10 +17,10 @@ app.get('/', (req, res) => {
 // Ambil data pengguna
 app.get('/api/users', (req, res) => {
    // Baca file products.json
-   fs.readFile(__dirname + '/products.json', 'utf8', (err, data) => {
+   fs.readFile(__dirname + 'products.json', 'utf8', (err, data) => {
       if (err) {
          console.error(err);
-         res.status(500).json({ error: 'Internal Server Error' });
+         res.status(500).json({ error: 'Internal Server Error' +  __dirname});
          return;
       }
 
