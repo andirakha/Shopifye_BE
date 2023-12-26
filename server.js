@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 // Ambil data pengguna
 app.get('/api/users', (req, res) => {
    // Baca file products.json
-   fs.readFile('products.json', 'utf8', (err, data) => {
+   fs.readFile('/products.json', 'utf8', (err, data) => {
       if (err) {
          console.error(err);
          res.status(500).json({ error: 'Internal Server Error' });
@@ -35,7 +35,7 @@ app.get('/api/users', (req, res) => {
 // Ambil data pengguna berdasarkan ID
 app.get('/api/users/:id', (req, res) => {
    // Baca file products.json
-   fs.readFile('products.json', 'utf8', (err, data) => {
+   fs.readFile('/products.json', 'utf8', (err, data) => {
       if (err) {
          console.error(err);
          res.status(500).json({ error: 'Internal Server Error' });
