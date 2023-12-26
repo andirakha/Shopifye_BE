@@ -1,46 +1,242 @@
 {
    "data": [
       {
+         "id": 1,
+         "nama": "Pita Pink",
+         "harga": 4000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225193953.png?alt=media&token=e320ad5e-6a07-4d8b-8e07-0e42e275fd91"
+      },
+      {
+         "id": 2,
+         "nama": "Tas Cohi",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174026.png?alt=media&token=c3ec679e-fcec-49b2-9c24-7867c3b04747"
+      },
+      {
+         "id": 3,
+         "nama": "Dress Merah",
+         "harga": 200000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173430.png?alt=media&token=e7edcfdd-a5b2-4a94-aa55-69c5c0ba449c"
+      },
+      {
+         "id": 4,
+         "nama": "Heel Kuning",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173744.png?alt=media&token=b3793893-6dec-428c-b048-ed30906cab4e"
+      },
+      {
+         "id": 5,
+         "nama": "Pita Pimer",
+         "harga": 4000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194016.png?alt=media&token=304a66f6-c05d-48fb-8553-77c7f4697983"
+      },
+      {
+         "id": 6,
+         "nama": "Tas Coku",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174052.png?alt=media&token=9df310d6-3cff-4df1-9935-875fc56e96a8"
+      },
+      {
          "id": 7,
-         "email": "michael.lawson@reqres.in",
-         "first_name": "Michael",
-         "last_name": "Lawson",
-         "avatar": "https://reqres.in/img/faces/7-image.jpg"
+         "nama": "Dress Biru",
+         "harga": 200000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173500.png?alt=media&token=a734c35c-a999-40d8-977f-acf86b8f6b5f"
       },
       {
          "id": 8,
-         "email": "lindsay.ferguson@reqres.in",
-         "first_name": "Lindsay",
-         "last_name": "Ferguson",
-         "avatar": "https://reqres.in/img/faces/8-image.jpg"
+         "nama": "Heel Coklat",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173758.png?alt=media&token=f758d78c-aea8-4194-a9b5-3c00c7bf93ed"
       },
       {
          "id": 9,
-         "email": "tobias.funke@reqres.in",
-         "first_name": "Tobias",
-         "last_name": "Funke",
-         "avatar": "https://reqres.in/img/faces/9-image.jpg"
+         "nama": "Pita Kumer",
+         "harga": 4000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194034.png?alt=media&token=e86ddabc-c748-4c55-9be0-d436f01bcc08"
       },
       {
          "id": 10,
-         "email": "byron.fields@reqres.in",
-         "first_name": "Byron",
-         "last_name": "Fields",
-         "avatar": "https://reqres.in/img/faces/10-image.jpg"
+         "nama": "Tas Coklat",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174113.png?alt=media&token=511c0644-38de-4d36-a85c-fded69459af9"
       },
       {
          "id": 11,
-         "email": "george.edwards@reqres.in",
-         "first_name": "George",
-         "last_name": "Edwards",
-         "avatar": "https://reqres.in/img/faces/11-image.jpg"
+         "nama": "Dress Hijau",
+         "harga": 200000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173520.png?alt=media&token=075ff912-b501-4b24-a145-fff403c4ee0e"
       },
       {
          "id": 12,
-         "email": "rachel.howell@reqres.in",
-         "first_name": "Rachel",
-         "last_name": "Howell",
-         "avatar": "https://reqres.in/img/faces/12-image.jpg"
+         "nama": "Heel Penguin",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173829.png?alt=media&token=6a154b9a-26a4-4a18-95ac-bce45f4c3e3e"
+      },
+      {
+         "id": 13,
+         "nama": "Pita Kuren",
+         "harga": 4000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194043.png?alt=media&token=a274577e-3e0a-46f9-b3b4-76ecef526425"
+      },
+      {
+         "id": 14,
+         "nama": "Tas Mebu",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174138.png?alt=media&token=bc1e8df5-67fb-495f-bf8b-a9d2ee0b25f9"
+      },
+      {
+         "id": 15,
+         "nama": "Dress Hijau 2",
+         "harga": 200000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173605.png?alt=media&token=5345c3a6-eab8-4cb3-8131-f877f074a27c"
+      },
+      {
+         "id": 16,
+         "nama": "Heel Pijar",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173837.png?alt=media&token=102a9ddf-d8e4-4954-a415-6a9560c33ba2"
+      },
+      {
+         "id": 17,
+         "nama": "Pita Birun",
+         "harga": 4000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194104.png?alt=media&token=8bd20c26-3d13-460a-ab65-9ec0aa71dcff"
+      },
+      {
+         "id": 18,
+         "nama": "Tas Hiku",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174201.png?alt=media&token=6b762691-b58b-4590-996d-d9ecfd73c419"
+      },
+      {
+         "id": 19,
+         "nama": "Crop Kuning",
+         "harga": 100000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173614.png?alt=media&token=27dcba28-9441-4a31-8fb5-59bbcf9ce8d6"
+      },
+      {
+         "id": 20,
+         "nama": "Heel Pijau",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173854.png?alt=media&token=e28791fe-9939-4161-8833-d746a8a08d74"
+      },
+      {
+         "id": 21,
+         "nama": "Scruncie Ungu",
+         "harga": 7000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194540.png?alt=media&token=91a33cb5-82f1-4d94-9d8a-05295eb8a639"
+      },
+      {
+         "id": 22,
+         "nama": "Tas Hico",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174214.png?alt=media&token=469568f4-0aa3-4192-8eba-5429e5b51c45"
+      },
+      {
+         "id": 23,
+         "nama": "Crop Abu",
+         "harga": 100000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173646.png?alt=media&token=9ea12d17-e347-4079-ba06-e44388548ec9"
+      },
+      {
+         "id": 24,
+         "nama": "Heel Grink",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173917.png?alt=media&token=12ff9c81-231a-4333-9b42-8c3c4637661f"
+      },
+      {
+         "id": 25,
+         "nama": "Scruncie Pink",
+         "harga": 7000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194637.png?alt=media&token=1d517cd2-e518-4fe3-98b5-57a2b57c01a0"
+      },
+      {
+         "id": 26,
+         "nama": "Tas Coca",
+         "harga": 75000,
+         "kategori": "Bag",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Bag%2FUntitled89_20231224174228.png?alt=media&token=6123cf3c-467a-434d-b8d2-4948f181dba4"
+      },
+      {
+         "id": 27,
+         "nama": "Crop Coklat",
+         "harga": 100000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173703.png?alt=media&token=57a96fe1-5274-46e1-9271-3194cef50cd9"
+      },
+      {
+         "id": 28,
+         "nama": "Heel Sogreen",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224173952.png?alt=media&token=44624855-da82-4755-aad8-241e5ec2e5ca"
+      },
+      {
+         "id": 29,
+         "nama": "Scruncie Choco",
+         "harga": 7000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194708.png?alt=media&token=c5a0059b-a9b2-4468-a18e-9eda6b3d07e4"
+      },
+      {
+         "id": 30,
+         "nama": "Crop Tosca",
+         "harga": 100000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173715.png?alt=media&token=1b5bef33-4e94-406c-abe5-501237167fe5"
+      },
+      {
+         "id": 31,
+         "nama": "Heel Greek",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224174001.png?alt=media&token=36ac8333-570a-4fb7-9158-35ce73a9067f"
+      },
+      {
+         "id": 32,
+         "nama": "Scruncie Cream",
+         "harga": 7000,
+         "kategori": "Accessories",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Accessories%2FUntitled89_20231225194740.png?alt=media&token=ff7d2784-d2d0-4314-bcb3-cd86e20deed5"
+      },
+      {
+         "id": 33,
+         "nama": "Crop Hijau",
+         "harga": 100000,
+         "kategori": "Dress",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Dress%2FUntitled89_20231224173732.png?alt=media&token=5dbd5704-7f0d-495a-8389-0f3726dc70cd"
+      },
+      {
+         "id": 34,
+         "nama": "Heel Grill",
+         "harga": 150000,
+         "kategori": "Footwear",
+         "photo": "https://firebasestorage.googleapis.com/v0/b/shopifye-e5e59.appspot.com/o/Footwear%2FUntitled89_20231224174011.png?alt=media&token=c05eab5d-3306-4e3c-960f-9a198389eba0"
       }
    ]
 }

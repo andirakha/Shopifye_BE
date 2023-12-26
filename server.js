@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 // Ambil data pengguna
-app.get('/api/users', (req, res) => {
+app.get('/api/products', (req, res) => {
    // Baca file products.json
    fs.readFile(__dirname + '/products.json', 'utf8', (err, data) => {
       if (err) {
@@ -33,7 +33,7 @@ app.get('/api/users', (req, res) => {
 });
 
 // Ambil data pengguna berdasarkan ID
-app.get('/api/users/:id', (req, res) => {
+app.get('/api/products/:id', (req, res) => {
    // Baca file products.json
    fs.readFile(__dirname+'/products.json', 'utf8', (err, data) => {
       if (err) {
