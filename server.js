@@ -10,14 +10,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-// app.get('/', (req, res) => {
-//    res.sendFile(__dirname + '/index.html');
-// });
+app.get('/', (req, res) => {
+   res.sendFile(__dirname + '/index.html');
+});
 
 // Ambil data pengguna
-app.get('/', (req, res) => {
+app.get('/api/users', (req, res) => {
    // Baca file products.json
-   fs.readFile('products.json', 'utf8', (err, data) => {
+   fs.readFile(__dirname + '/products.json', 'utf8', (err, data) => {
       if (err) {
          console.error(err);
          res.status(500).json({ error: 'Internal Server Error' });
